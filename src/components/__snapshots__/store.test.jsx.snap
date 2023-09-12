@@ -1,0 +1,12 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`Store store matches the snapshot 1`] = `
+Object {
+  "homepage": Object {
+    "categories": Array [],
+    "error": null,
+    "filter": "",
+    "loading": false,
+  },
+}
+`;

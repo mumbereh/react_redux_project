@@ -1,0 +1,117 @@
+table {
+    border-collapse: collapse;
+    width: 80em;
+    margin: 1em auto;
+    box-sizing: border-box;
+    padding: 5em;
+    border-radius: 5px;
+  }
+  
+  .btn-icon {
+    padding: 8px 12px;
+    background: none;
+    border: none;
+    font-size: 32px;
+  }
+  
+  a {
+    text-decoration: none;
+    font-size: 20px;
+  }
+  
+  table th,
+  table td {
+    text-align: left;
+    padding: 8px;
+    border: 1px solid #ddd;
+  }
+  
+  .detail {
+    display: flex;
+  }
+  
+  .heading {
+    text-align: center;
+    margin-left: 7%;
+  }
+  
+  table .detail-table {
+    border-collapse: collapse;
+    width: 80em;
+    margin: 1em auto;
+    box-sizing: border-box;
+  }
+  
+  table tr:nth-child(even) {
+    background-color: #f3f3f3;
+  }
+  
+  .search-container {
+    text-align: left;
+    margin-left: 34px;
+  }
+  
+  .search-input {
+    width: 300px;
+    padding: 10px;
+    border: 1px solid #ccc;
+    border-radius: 4px;
+    font-size: 16px;
+  }
+  
+  .search-input:focus {
+    outline: none;
+    border-color: #666;
+    box-shadow: 0 0 5px rgba(102, 102, 102, 0.8);
+  }
+  
+  @media (max-width: 600px) {
+    * {
+      background-color: #ec4c8a;
+      color: #fff;
+    }
+  
+    table {
+      width: 100%;
+      padding: 10px;
+    }
+  
+    .search-container {
+      margin-left: 0;
+      text-align: center;
+    }
+  
+    .search-input {
+      width: 100%;
+      margin: 2px;
+    }
+  }
+  
+  @media (min-width: 601px) and (max-width: 899px) {
+    table {
+      width: 80em;
+      margin: 2em auto;
+    }
+  
+    h1 {
+      text-align: center;
+    }
+  }
+  
+  @media (min-width: 899px) and (max-width: 1024px) {
+    table {
+      width: 80em;
+      margin: 2em auto;
+    }
+  
+    h1 {
+      text-align: center;
+    }
+  }
+  
+  @media (min-width: 1025px) {
+    table {
+      width: 90em;
+      margin: 3em auto;
+    }
+  }

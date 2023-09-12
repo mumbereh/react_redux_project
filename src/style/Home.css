@@ -67,8 +67,8 @@ table tr:nth-child(even) {
 
 @media (max-width: 600px) {
   * {
-    background-color: #e7095e;
-    color: #e9dede;
+    background-color: #c25c84;
+    color:#fff;
   }
 
   table {

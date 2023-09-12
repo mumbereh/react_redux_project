@@ -48,7 +48,7 @@ const homepageSlice = createSlice({
       })
       .addCase(fetchCategories.fulfilled, (state, action) => {
         state.loading = false;
-        state.categories = action.payload;
+        state.categories = [...action.payload];
       })
       .addCase(fetchCategories.rejected, (state, action) => {
         state.loading = false;
@@ -59,7 +59,11 @@ const homepageSlice = createSlice({
           (category) => category.id === action.payload.id,
         );
         if (categoryIndex !== -1) {
-          state.categories[categoryIndex] = action.payload;
+          state.categories = [
+            ...state.categories.slice(0, categoryIndex),
+            action.payload,
+            ...state.categories.slice(categoryIndex + 1),
+          ];
         }
       });
   },

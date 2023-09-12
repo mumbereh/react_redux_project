@@ -182,7 +182,7 @@ More thanks goes to my coding partner, morning sessions and standup teams who ha
 
 ## 📝 License <a name="license"></a>
 
-This project is [MIT](MIT.md) licensed.
+This project is [MIT](./src/MIT.md)
 
 
 <p align="right">(<a href="#readme-top">back to top</a>)</p>

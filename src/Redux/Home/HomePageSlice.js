@@ -1,13 +1,12 @@
 import { createSlice, createAsyncThunk } from '@reduxjs/toolkit';
 
 const urlBase = 'https://api.coingecko.com/api/v3/coins/';
-const urlFetcherAPI = 'https://api.coingecko.com/api/v3/coins/';
 
 export const fetchCategories = createAsyncThunk('homepage/fetchCategories', async () => {
   try {
     const response = await fetch(urlBase);
     const data = await response.json();
-    // console.log(data);
+
     return data;
   } catch (error) {
     throw new Error('Failed to fetch categories');
@@ -18,9 +17,9 @@ export const fetchCategory = createAsyncThunk(
   'homepage/fetchCategory',
   async ({ rejectWithValue }) => {
     try {
-      const response = await fetch(urlFetcherAPI);
+      const response = await fetch(urlBase);
       const data = await response.json();
-      // console.log(data);
+
       return data;
     } catch (error) {
       return rejectWithValue(error.message);

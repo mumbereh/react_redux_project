@@ -78,6 +78,10 @@ The React Capstone project, driven by a user-centric approach, involves the crea
 - [Live Demo Link](https://mumbereh.github.io/react_redux_capstone/)
 
 
+- [Live project presentation Link](https://www.loom.com/share/5d0e62d68b8a4ad1a38441d6f0273928)
+
+
+
 <!-- GETTING STARTED -->
 
 ## 💻 Getting Started <a name="getting-started"></a>

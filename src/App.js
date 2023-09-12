@@ -1,7 +1,7 @@
 import React from 'react';
 import { Routes, Route } from 'react-router-dom';
-import HomePage from './components/HomePage'; // Correct import
-import DetailsPage from './components/DetailsPage'; // Correct import
+import HomePage from './components/HomePage';
+import DetailsPage from './components/DetailsPage';
 
 const App = () => (
   <Routes>

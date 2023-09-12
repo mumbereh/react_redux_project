@@ -1,6 +1,6 @@
 import React from 'react';
 import { Routes, Route, Link } from 'react-router-dom';
-import HomePage from '../components/Homepage';
+import HomePage from '../components/HomePage';
 import DetailsPage from '../components/DetailsPage';
 
 const Navbar = () => (

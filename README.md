@@ -75,7 +75,7 @@ The React Capstone project, driven by a user-centric approach, involves the crea
 
 ## 🚀 Live Demo <a name="live-demo"></a>
 
-- [Live Demo Link](https://feature--unrivaled-griffin-1a6d15.netlify.app//)
+- [Live Demo Link](https://feature--unrivaled-griffin-1a6d15.netlify.app/)
 
 
 - [Live project presentation Link](https://www.loom.com/share/5d0e62d68b8a4ad1a38441d6f0273928)

@@ -10,10 +10,6 @@ const CurrencyTable = ({ categories }) => (
     <colgroup>
       <col span={1} style={{ width: '5%' }} />
       <col span={1} style={{ width: '4%' }} />
-      <col span={1} style={{ width: '8%' }} />
-      <col span={1} style={{ width: '10%' }} />
-      <col span={1} style={{ width: '8%' }} />
-      <col span={1} style={{ width: '8%' }} />
     </colgroup>
     <thead>
       <tr>

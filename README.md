@@ -75,7 +75,7 @@ The React Capstone project, driven by a user-centric approach, involves the crea
 
 ## 🚀 Live Demo <a name="live-demo"></a>
 
-- [Live Demo Link](https://feature--unrivaled-griffin-1a6d15.netlify.app/)
+- [Live Demo Link](https://mumbereh.github.io/react_redux_capstone/)
 
 
 - [Live project presentation Link](https://www.loom.com/share/5d0e62d68b8a4ad1a38441d6f0273928)
@@ -171,9 +171,13 @@ If you like this project star the repo
 
 ## 🙏 Acknowledgments <a name="acknowledgements"></a>
 
-We would like to thank the Microverse community for giving me the opportunity of learning with them.
+I would like to thank the Microverse community for giving me the opportunity of learning with them.
+
 I would like like to extend more thanks to my code reviewer who have been there for me guiding in the day today activies to improve my technical skills in development
+
 More thanks goes to my coding partner, morning sessions and standup teams who have been getting me out of  blockages when i needed help and guidance. 
+
+Finally I would like to thank Nelson Sakwa the author of the original design.
 
 <p align="right">(<a href="#readme-top">back to top</a>)</p>
 

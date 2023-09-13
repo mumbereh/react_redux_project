@@ -1,0 +1,98 @@
+table {
+  border-collapse: collapse;
+  width: 100%;
+  margin: 2% auto;
+  box-sizing: border-box;
+  padding: 2%;
+  border-radius: 5px;
+}
+
+.btn-icon {
+  padding: 3% 3%;
+  border: none;
+  font-size: 2em;
+}
+
+a {
+  text-decoration: none;
+  font-size: 1.25em;
+}
+
+table th,
+table td {
+  text-align: left;
+  padding: 2%;
+  border: 1px solid #ddd;
+}
+
+.detail {
+  display: flex;
+}
+
+.heading {
+  text-align: center;
+  margin-left: 7%;
+}
+
+table .detail-table {
+  border-collapse: collapse;
+  width: 100%;
+  margin: 2% auto;
+  box-sizing: border-box;
+}
+
+table tr:nth-child(even) {
+  background-color: #f3f3f3;
+}
+
+.search-container {
+  text-align: left;
+  margin-left: 5%;
+}
+
+.search-input {
+  width: 30%;
+  padding: 1%;
+  border: 1px solid #ccc;
+  border-radius: 4px;
+  font-size: 1em;
+}
+
+.search-input:focus {
+  outline: none;
+  border-color: #666;
+  box-shadow: 0 0 5px rgba(102, 102, 102, 0.8);
+}
+
+@media (max-width: 600px) {
+  * {
+    background-color: #c25c84;
+    color: #fff;
+  }
+
+  table {
+    width: 100%;
+    padding: 2%;
+  }
+
+  .search-container {
+    margin-left: 0;
+    text-align: center;
+  }
+
+  .search-input {
+    width: 90%;
+    margin: 2% auto;
+  }
+}
+
+@media (min-width: 601px) {
+  table {
+    width: 80%;
+    margin: 2% auto;
+  }
+
+  h1 {
+    text-align: center;
+  }
+}
